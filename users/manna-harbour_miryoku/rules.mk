@@ -1,3 +1,11 @@
+# SuperMiguel Config
+RGBLIGHT_ENABLE = yes    # Enable WS2812 RGB underlight.
+OLED_ENABLE     = yes
+#OLED_DRIVER     = SSD1306
+LTO_ENABLE      = yes
+RGB_MATRIX_ENABLE = no
+
+
 # Copyright 2019 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
@@ -14,8 +22,3 @@ include users/manna-harbour_miryoku/custom_rules.mk
 
 include users/manna-harbour_miryoku/post_rules.mk
 
-# SuperMiguel Config
-RGBLIGHT_ENABLE = yes    # Enable WS2812 RGB underlight.
-OLED_ENABLE     = yes
-OLED_DRIVER     = SSD1306
-LTO_ENABLE      = yes
